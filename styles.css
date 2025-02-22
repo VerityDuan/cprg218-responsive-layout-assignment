@@ -1,0 +1,24 @@
+header{
+    background-color: #120323;
+    color:#97bf04;
+    text-align: center;
+}
+aside{
+    background-color: #97bf04;
+    padding: 20px 20px 20px 10px;
+    
+}
+body{
+    font-family: sans-serif;
+}
+footer{
+    background-color: #d9042d;
+    color: white;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+}
+
+img[src="images/puffin-square.webp"] {
+    border: 5px solid #d9042d;}
+
+    
