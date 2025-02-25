@@ -5,11 +5,14 @@ header{
 }
 aside{
     background-color: #97bf04;
+    margin-bottom: 10px;
     padding: 20px 20px 20px 10px;
     
 }
 body{
     font-family: sans-serif;
+    margin: 0;
+
 }
 footer{
     background-color: #d9042d;
@@ -18,7 +21,24 @@ footer{
     text-align: center;
 }
 
-img[src="images/puffin-square.webp"] {
-    border: 5px solid #d9042d;}
+main figure img {
+    border: 5px solid #d9042d;
+    display: block;
+    margin: 0 auto;
+}
 
+@media screen and (min-width:769px) {
+    header{
+        display: flex;
+        align-items: center;
+}
+figure{
+    display: flex;
+}
+figcaption{
+    margin-left: 6%;
+}
+
+@media screen and (min-width:1000px) {
     
+}
