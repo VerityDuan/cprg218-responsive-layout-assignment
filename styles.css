@@ -26,8 +26,8 @@ main figure img {
     display: block;
     margin: 0 auto;
 }
-
-@media screen and (min-width:769px) {
+/*this is the default one for under 1000*/
+@media screen and (min-width:769px) and (max-width: 999px) {
     header{
         display: flex;
         align-items: center;
@@ -38,7 +38,48 @@ figure{
 figcaption{
     margin-left: 6%;
 }
+ main figure img {
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+ }
 
+
+}
+/*this is the default one for over 1000*/
 @media screen and (min-width:1000px) {
-    
+    header{
+        display: flex;
+        align-items: center;
+}
+figure{
+    display: flex;
+}
+figcaption{
+    margin-left: 6%;
+}
+ main figure img {
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+ }
+ aside{
+    margin-right: 6%;
+ }
+
+ #container {
+    display: flex; 
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+main {
+    flex: auto;
+    margin-right: auto; 
+}
+
+aside {
+    width: 100%; 
+}
+
 }
